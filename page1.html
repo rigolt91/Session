@@ -14,7 +14,7 @@
                 let resp = await fetch('session.php')
                 let data = await resp.text()
 
-                document.write(data)
+                console.log(data)
             } catch (error) {
                 error
             }
